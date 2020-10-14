@@ -1,0 +1,12 @@
+h1 {
+    font-family: Arial;
+    color: burlywood;
+    background-color: rgb(7, 7, 7); /* dark gray */
+}
+p {
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+}
+body {
+    background-image: linear-gradient(to bottom right, rgb(22, 175, 98), rgb(20, 88, 20) )  
+}
