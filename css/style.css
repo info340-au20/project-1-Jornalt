@@ -6,6 +6,7 @@ h1 {
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
+    font-size: 16px;
 }
 body {
     background-image: linear-gradient(to bottom right, rgb(22, 175, 98), rgb(20, 88, 20) )  
