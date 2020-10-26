@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="your name">
-    <meta name="description" content="description of your page">
+    <meta name="author" content="Mason Green, Joseph Altamira, Siddharth Jayadev">
+    <meta name="description" content="Songs you play on Spotify in specific times">
     <title>My Page Title</title>
-    <link rel="stylesheet" href="css/project_style.css">  
+    <link rel="stylesheet" href="css/project_style.css">
 </head>
+
 <body>
     <div class="navbar">
         <span><a>Spotify Web-App Title</a></span>
         <span class="dropdown">
           <button class="dropbtn">Select a Time-Frame
-            <i class="fa fa-caret-down"></i>
+            <i class="fa fa-caret-down" aria-label= "Select a time frame"></i>
           </button>
           <div class="dropdown-content">
             <a href="#">Hourly</a>
@@ -27,119 +29,73 @@
     </div>
     <div class="timeline">
         <div class="container right">
-          <div class="content">
-            <h2>6am</h2>
-            <p>Lorem ipsum..</p>
-          </div>
+            <div class="content">
+                <h2>6am</h2>
+                <p>Lorem ipsum..</p>
+            </div>
         </div>
         <div class="container right">
             <div class="content">
-              <h2>7am</h2>
-              <p>Lorem ipsum..</p>
+                <h2>7am</h2>
+                <p>Lorem ipsum..</p>
             </div>
-          </div>
-          <div class="container right">
+        </div>
+        <div class="container right">
             <div class="content">
-              <h2>8am</h2>
-              <p>Lorem ipsum..</p>
+                <h2>8am</h2>
+                <p>Lorem ipsum..</p>
             </div>
-          </div>
-          <div class="container right">
+        </div>
+        <div class="container right">
             <div class="content">
-              <h2>9am</h2>
-              <p>Lorem ipsum..</p>
+                <h2>9am</h2>
+                <p>Lorem ipsum..</p>
             </div>
-          </div>
-          <div class="container right">
+        </div>
+        <div class="container right">
             <div class="content">
-              <h2>10am</h2>
-              <p>Lorem ipsum..</p>
+                <h2>10am</h2>
+                <p>Lorem ipsum..</p>
             </div>
-          </div>
-          <div class="container right">
+        </div>
+        <div class="container right">
             <div class="content">
-              <h2>11am</h2>
-              <p>Lorem ipsum..</p>
+                <h2>11am</h2>
+                <p>Lorem ipsum..</p>
             </div>
-          </div>
-          <div class="container right">
+        </div>
+        <div class="container right">
             <div class="content">
-              <h2>12pm</h2>
-              <p>Lorem ipsum..</p>
+                <h2>12pm</h2>
+                <p>Lorem ipsum..</p>
             </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>1pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>2pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>3pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>4pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>5pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>6pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>7pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>8pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>9pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>10pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>11pm</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h2>12am</h2>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
+        </div>
     </div>
+    <div class="comment_form">
+        <section>
+            <h2>Comment Form</h2>
+            <form>
+                <h3>
+                    Leave a comment
+                </h3>
+                <div>
+                    <label for="email_input">Email: </label><input id="email_input" type="email" name="email" placeholder="email@domain.com">
+                </div>
+                <div>
+                    <label for="comment_field">Comment: </label>
+                    <textarea class="form-control" id="comment_field" name="comment"></textarea>
+                </div>
+                <button type="submit"><i class="fas fa-pencil-alt" aria-label="Submit">Submit</i></button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <!-- Author Info -->
+        <address>
+        Contact me at <a href="mailto:me@here.com">me@here.com</a>, or at <a href="tel:555-123-4567">(555) 123-4567</a>.
+      </address>
+        <p>&copy; 2020 The Author.</p>
+    </footer>
 </body>
+
 </html>
