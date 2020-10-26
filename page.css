@@ -1,0 +1,29 @@
+.columns {
+    display:flex;
+    padding: 1em;
+    height:100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columns section.time {
+    flex-basis: 20%;
+}
+
+.columns section.details {
+    flex-basis: 70%;
+}
+
+.columns section.collapse {
+    flex-basis: 10%;
+}
+
+body {
+    background-color: green;
+}
+
+.song-pictures {
+    flex: 1 0 0px;
+}
