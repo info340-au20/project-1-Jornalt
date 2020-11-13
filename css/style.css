@@ -55,10 +55,6 @@ h1 {
     width: 90px;
 }
 
-#img_music {
-    box-shadow: 0 0 100px 100px white inset;
-}
-
 .container-login {
     width: 101%;
     display: flex;
