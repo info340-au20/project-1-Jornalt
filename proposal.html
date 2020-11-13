@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="Mason and Joseph" content="Mason and Joseph">
+    <meta name="Web-page" content="This page contains our project Proposal">
+    <title>Web-App Project 1 Proposal</title>
+    <link rel="stylesheet" href="css/style.css">  
+</head>
+<body>
+    <h1> Web-App Project 1 Proposal</h1>
+    <section>
+        <h2>Abstract</h2>
+        <p>
+            &ensp; The domain of data we will be working with is within music streaming. 
+            We will be looking at the data provided by the music streaming platform called spotify.  
+            Many users that use spotify have specific music, genre, bands, and etc. that they listen to 
+            frequently. Sometimes they know exactly what they want to hear and other times they are left 
+            scrolling through a playlist curated by spotify. What we are hoping to achieve is to identify 
+            what music you listen to the most during specific times. Rather than just genre or a band, we 
+            want to see specific songs.
+            <br>
+            &ensp; In addition, the media we consume can affect our mood, speech, and even how we think. 
+            Music especially, as it gives us words, thoughts and ideas through its lyrics. For example, 
+            listening to songs like “Sound of Silence” by Simon and Garfunkel once might not change our 
+            mood but if you are constantly listening to it throughout the day, well you might just be 
+            feeling a certain way. We would like to record instances that a user listens to songs and 
+            analyze their mood for specific days/weeks/months. It might also be possible to help change 
+            a person’s mood a little bit if there are suggestions to listen to something a little bit more 
+            lighter in tone.
+        </p>
+    </section>
+
+    <section>
+        <h3>Problem & Data Domain</h3>
+        <section>
+            <h4>Questions of Interest</h4>
+                <ul>
+                    <li>
+                        How does music taste change during the time of day, during the week, or even during the month? (over time if possible) 
+                    </li>
+                    <li>
+                        How does music taste influence mood over time? Or, vice versa? (Mood is something with a lot of dependent variables, 
+                        so this isn’t necessarily the primary cause)
+                    </li>
+                    <li>
+                        IN SHORT: Music taste vs. time, music taste vs. mood, and music vs. person
+                    </li>
+                </ul>
+            <h4>Information Technology Problem Space</h4>
+                <ul>
+                    <li>
+                        There is a lack of long term analysis of music taste over time, and using a
+                        web-app these relationships can be revealed in an interactive and easy to 
+                        understand way, ultimately reducing time spent trying to find the right music.
+                    </li>
+                    <li>
+                        There have been many studies of music and mood, which we will need to study more. 
+                        However, data is still very vague and will need more research. We are hoping to
+                        shine more light into how music in general can affect you as a person.
+                    </li>
+                </ul>    
+            <h4>Existing Solutions</h4>
+                <ul>
+                    <li>
+                        <a href= "https://medium.com/@mohithsubbarao/moodtape-using-
+                        spotify-api-to-create-mood-generated-playlists-6e1244c70892"> Moodtape</a>
+                        : takes input from the user, and generates a playlist around their ‘mood’.
+                        
+                    </li>
+                    <li>
+                        <a href="https://obscurifymusic.com/login"> Obscurify</a> 
+                        : explores a user's top artists from all time or the last 6 weeks, and 
+                        gives  a ranking of that user's taste. 
+                        
+                    </li>
+                    <li>
+                        Both of these don’t address the question we have in mind, about how mood and taste interact over a smaller time 
+                        interval-- i.e during the day or week.
+                    </li>
+                </ul>    
+        </section>
+        
+    </section>
+
+    <section>
+        <h3>App description & Features</h3>
+        <h4>Target Users</h4>
+            <ul>
+                <li>
+                    Everyone who uses spotify. The more frequently active a user is, the more use they will get out of this. 
+                </li>
+            </ul>
+        <h4>Information Displayed</h4>
+            <ul>
+                <li>
+                    <a href= "https://developer.spotify.com/discover/"> Spotify-API-info</a>
+                </li>
+                <li>
+                    The users will be viewing a summary of their listening preferences from the past day, week, or month. 
+                    This will be using two endpoints that spotify provide:
+                    <ul>
+                        <li>
+                            Mood: Danceability, Valence, Energy, Tempo
+                        </li>
+                        <li>
+                            Read user’s top tracks and artists
+                        </li>
+                        <li>
+                            Read user’s recently played tracks (up to 50)
+                        </li>
+                        <li>
+                            Save and unsave tracks and albums
+                        </li>
+                    </ul>    
+                </li>
+            </ul>
+        <h4>What are two forms of Interaction within the web-app?</h4>
+            <ul>
+                <li>
+                    Curating a better and more specific playlist that conforms to a users preference at a 
+                    specific time of day/week    
+                </li>
+                <li>
+                    Being able to check past listening history and assigning them to a certain mood, 
+                    or better understand how the two interact to improve their lives.
+                </li>
+            </ul>    
+        <h4>How does this web-app help solve the chosen problem?</h4>
+            <ul>
+                <li>
+                    This app will help users better understand how their mood is 
+                    affected by their current music taste, and vice versa. Through
+                        providing insights on the time of day that they listen to certain 
+                        music (for example, Lady Gaga in the morning and Starcadian 
+                        at night), users can change their listening habits to better 
+                        compliment their mood, or general preference
+                </li>
+            </ul>
+    </section>
+</body>
+</html>

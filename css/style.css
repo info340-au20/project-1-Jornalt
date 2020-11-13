@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(8, 92, 37, 1) 0%, rgba(29, 185, 84, 1) 100%);
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+}
+
+.picture {
+    background-image: url("img/music.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+.login_form button {
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.login_form button:hover {
+    background-color: #1db954;
+    color: white;
+}
+
+.login_form img {
+    height: 50px;
+    width: 90px;
+}
+
+.container-login {
+    width: 101%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contents {
+    flex: 0 0 auto;
+}
