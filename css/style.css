@@ -19,6 +19,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    flex: 0 0 auto;
 }
 
 h1 {
@@ -44,10 +45,6 @@ h1 {
 .login_form button:hover {
     background-color: #1db954;
     color: white;
-}
-
-#connect_spotify {
-    float: left;
 }
 
 .login_form img {
