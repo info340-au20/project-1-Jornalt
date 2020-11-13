@@ -1,7 +1,7 @@
 'use strict';
 
 // TODO: Write authentication endpoint
-
+// GET https://accounts.spotify.com/authorize
 
 // TODO: Create variables to store:
 //       - user authentication id 
